@@ -20,7 +20,6 @@ export default function AddClient(){
     navigate('/clients')
   }
 
-  // 💡 NOTA: Definí una variable de estilo para no repetir
   const inputStyle = "w-full border border-gray-300 dark:border-gray-600 dark:bg-gray-700 px-2 py-1 rounded"
 
   return (

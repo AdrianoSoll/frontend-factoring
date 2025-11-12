@@ -14,7 +14,7 @@ function RequireAuth({ children }){
 
 export default function App(){
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen">
       <Routes>
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
